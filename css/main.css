@@ -169,20 +169,16 @@ main{
 .container{
   width:300px;
 }
-
-
-  .header{
+   .header{
     display: flex;
     flex-direction: row;
     justify-content:flex-start;
     width:600px;
-    background-color: #fff;;
-
-  }
+    background-color: #fff;
+}
   .nav-list  a{
     color:black;
 }
-
   .footer{
   display:grid;
   grid-template-columns:auto;
@@ -194,19 +190,18 @@ main{
   flex-direction: column;
   align-items: center;
   }
-
-	.logo {
-		display: block;
-		height: 120px;
-		width: auto;
-		margin: auto;
-		border: 1px solid #222222;
+.logo {
+  display: block;
+  height: 120px;
+  width: auto;
+  margin: auto;
+  border: 1px solid #222222;	
 	}
 
-	.title {
-		margin: auto;
-		text-align: center;
-		line-height: 1px;
+.title {
+   margin: auto;
+   text-align: center;
+   line-height: 1px;
 	}
   .card{
     width:400px;
@@ -232,5 +227,48 @@ main{
     grid-template-columns:auto;
     align-items: center;
     grid-gap:40px;
+  }
+	
+	 *{
+  width: 100%;
+  height: auto;
+}
+
+.container{
+  width:300px;
+}
+   .header{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    width:600px;
+    background-color: #fff;
+}
+  .nav-list  a{
+    color:black;
+}
+  .footer{
+  display:grid;
+  grid-template-columns:auto;
+  background-color: #3b6978;
+  align-items: left;
+  width:100%;
+  }
+  .social .list{
+  flex-direction: column;
+  align-items: center;
+  }
+.logo {
+  display: block;
+  height: 120px;
+  width: auto;
+  margin: auto;
+  border: 1px solid #222222;	
+	}
+
+
+
+  #contact{
+    display: none;
   }
 }
